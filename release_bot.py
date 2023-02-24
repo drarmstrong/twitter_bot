@@ -6,7 +6,7 @@ import bot_script
 from pprint import pprint
 
 pub_api_url = 'http://www.ebi.ac.uk/pdbe/api/pdb/entry/publications/'
-search_url = 'http://www.ebi.ac.uk/pdbe/search/latest/select?q='
+search_url = 'http://www.ebi.ac.uk/pdbe/search/pdb/select?q='
 pdb_group = '&group=true&group.field=pdb_id&group.ngroups=true'
 search_variables = '&wt=json&rows=999'
 jrnl_csv = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'journal_twitter.csv')
